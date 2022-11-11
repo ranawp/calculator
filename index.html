@@ -10,7 +10,42 @@
 </head>
 
 <body>
+    <main class="main">
+        <table class="container">
 
+            <input id="myResult">
+
+            <tr>
+                <td><input type="button" value="C" onclick="DeleteMe()"></td>
+                <td><input type="button" value="(" onclick="calculator('(')"></td>
+                <td><input type="button" value=")" onclick="calculator(')')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="calculator('7')"></td>
+                <td><input onclick="calculator('8')" type="button" value="8"></td>
+                <td><input onclick="calculator('9')" type="button" value="9"></td>
+                <td><input onclick="calculator('+')" type="button" value="+"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="calculator('4')"></td>
+                <td><input onclick="calculator('5')" type="button" value="5"></td>
+                <td><input onclick="calculator('6')" type="button" value="6"></td>
+                <td><input onclick="calculator('-')" type="button" value="-"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="calculator('1')"></td>
+                <td><input onclick="calculator('2')" type="button" value="2"></td>
+                <td><input onclick="calculator('3')" type="button" value="3"></td>
+                <td><input onclick="calculator('*')" type="button" value="*"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="calculator('0')"></td>
+                <td><input onclick="calculator('.')" type="button" value="."></td>
+                <td><input onclick="calculator('/')" type="button" value="/"></td>
+                <td><input onclick="answer()" type="button" value="="></td>
+            </tr>
+        </table>
+    </main>
 
     <script src="./style.js"></script>
 </body>
